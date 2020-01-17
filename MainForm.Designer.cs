@@ -1,6 +1,6 @@
 ﻿namespace Tarkov_Time_Sync
 {
-	partial class Form1
+	partial class MainForm
 	{
 		/// <summary>
 		/// Required designer variable.
@@ -28,7 +28,7 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
 			this.btnReset = new System.Windows.Forms.Button();
 			this.lblDisplay = new System.Windows.Forms.Label();
 			this.btnPlus = new System.Windows.Forms.Button();
