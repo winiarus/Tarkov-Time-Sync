@@ -26,15 +26,15 @@ namespace Tarkov_Time_Sync
 
 		private void BtnPlusMs_Click(object sender, EventArgs e)
 		{
-			ModifyTime(100);
-			timeOffset += 100;
+			ModifyTime(50);
+			timeOffset += 50;
 			lblDisplay.Text = timeOffset.ToString() + " ms";
 		}
 
 		private void BtnMinusMs_Click(object sender, EventArgs e)
 		{
-			ModifyTime(-100);
-			timeOffset -= 100;
+			ModifyTime(-50);
+			timeOffset -= 50;
 			lblDisplay.Text = timeOffset.ToString() + " ms";
 		}
 
